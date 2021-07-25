@@ -1,0 +1,46 @@
+[
+  {
+    "name":"Aditonal meat",
+    "price": "220"
+  },
+  {
+    "name": "Cheddar",
+    "price": "80"
+  },
+  {
+    "name": "Mirocki cheese",
+    "price": "110"
+  },
+  {
+    "name": "American cheese",
+    "price": "80"
+  },
+  {
+    "name": "Chrispy bacon",
+    "price": "100"
+  },
+  {
+    "name": "Onion chips",
+    "price": "110"
+  },
+  {
+    "name": "Caramelized onions",
+    "price": "70"
+  },
+  {
+    "name": "Jalapeno 🔥",
+    "price": "90"
+  },
+  {
+    "name": "Iceberg",
+    "price": "60"
+  },
+  {
+    "name": "Mushroom daxel",
+    "price": "110"
+  },
+  {
+    "name": "Egg",
+    "price": "70"
+  }
+]

@@ -1,0 +1,99 @@
+.app-banner {
+	padding: $small;
+	
+	.install {
+		max-width: 50rem;
+		margin: $center;
+		margin-bottom: 2rem;
+		.btn-install {
+			font-weight: bold;
+      margin: $medium 0;
+      font-size: $small;
+			display: inline-block;
+			width: 100%;
+			background: rs-color(brand,0);
+			border: none;
+			border-radius: $border-radius10;
+			padding: $large 0;
+			color: rs-color(black,0);
+			cursor: pointer;
+			
+			&:hover {
+				opacity: 90%;
+			}
+		}
+	}
+
+	.iosBanner {
+		display: none;
+		flex-direction: column;
+		align-items: center;
+		position: absolute;
+		bottom: 9rem;
+		width: 92.5%;
+		left: 50%;
+		transform: translateX(-50%);
+		padding-top: $small;
+		background: #fff;
+		color: rs-color(black,0);
+		border-radius: $border-radius10;
+		overflow: hidden;
+
+		.app__grid {
+			display: grid;
+			grid-template-columns: repeat(5, 5.625rem);
+			gap: $x-small;
+			margin-bottom: $small;
+		}
+		.cell {
+			overflow: hidden;
+			background-color: rs-color(neutral,1);
+			border-radius: $ios-border;
+			overflow: hidden;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				overflow: hidden;
+				padding: 1rem;
+			}
+		}
+		.install-text {
+			width: 13rem;
+			text-align: center;
+			margin-bottom: 0 auto;
+			margin-bottom: $small;
+			color: rs-color(black,0);
+		}
+	}
+	.open {
+		display: flex;
+		align-items: center;
+	}
+	.step {
+		background-color: rs-color(neutral,1);
+		width: 100%;
+		padding: $small 0;
+		text-align: center;
+		
+		p {
+			color: rs-color(black,0);
+		}
+		img {
+			display: inline;
+			width: $x-large;
+			height: $x-large;
+		}
+	}
+	.close {
+		align-self: flex-end;
+		padding: 0 $small $small $small;
+	}
+}
+
+@media all and (display-mode: standalone) {
+  .app-banner {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+$rs-colors: (
+  black: (
+    0:#000000,
+    1:#1f1f1f,
+    2:#333333,
+  ),
+  negative: (
+    0: #ff5353,
+  ),
+  neutral: (
+    0: #eceff1,
+    1: #d0d0d1,
+    2: #a1a1a3,
+    3: #9aa2a9,
+    4: #d4dce2,
+    5: #eceff2,
+    6: #ffffff,
+  ),
+  link: (
+    0: #00c2ff,
+    1: #b3dfd3,
+  ),
+  brand: (
+    0:#b99d7f,
+    1:#f3eed4,
+  ),
+  loading: (
+    0: #555555,
+    1: #444444,
+  )
+);
+
+@function rs-color($rs-color, $tone: 'base') {
+  @return map-get(map-get($rs-colors, $rs-color), $tone);
+}

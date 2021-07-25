@@ -1,0 +1,462 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+body {
+  background-color: #1f1f1f;
+  position: relative;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media all and (display-mode: standalone) {
+  body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #eceff1;
+}
+
+h2 {
+  color: #000;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9aa2a9;
+}
+
+#region {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 2px 9px 0px black;
+          box-shadow: 0px 2px 9px 0px black;
+  background-color: #eceff1;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"><polygon points="0,0 100,0 50,50" style="fill:%23777777;" /></svg>');
+  background-position: right 10px top 50%;
+  background-repeat: no-repeat;
+  background-size: 0.9375rem;
+  padding-right: 1.875rem;
+}
+
+#region:focus, #region:hover {
+  border: 1px solid #111517;
+}
+
+.visible-no {
+  display: none;
+}
+
+.form {
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: #111517;
+  background-color: #eceff1;
+  border: none;
+  border-radius: 5px;
+}
+
+header {
+  padding-top: 2.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+header .header__main {
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .date {
+  font-size: 1.25rem;
+  margin-left: 1rem;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav__item {
+  min-width: 6rem;
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #eceff1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  will-change: background-color;
+  -webkit-transition: 100ms ease-in background-color;
+  transition: 100ms ease-in background-color;
+}
+
+.nav__item:hover {
+  background-color: #b99d7f;
+}
+
+.nav__item a {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.nav__item:last-child {
+  margin-right: 1rem;
+}
+
+.nav__item-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.nav__item-icon {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 1.875rem;
+  height: 1.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.nav__item-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.sticky {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: #1f1f1f;
+  padding-bottom: 2rem;
+}
+
+.active {
+  background-color: #b99d7f;
+}
+
+.menu {
+  padding: 1rem;
+  padding-top: 2.35rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+article h2 {
+  color: #b99d7f;
+}
+
+.layout-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  background-color: #333333;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.layout-1__group {
+  grid-column: 2 / -1;
+}
+
+.layout-1__title {
+  margin-bottom: 0.25rem;
+}
+
+.layout-1__description {
+  margin-bottom: 1rem;
+}
+
+.layout-1__image {
+  height: 9.2em;
+  margin-right: 1rem;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.layout-1__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.price {
+  color: #b99d7f;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.price span {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.price-small {
+  padding-left: 0.5rem;
+}
+
+.item-price-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.title-loading {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.description-loading {
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
+.small-description-loading {
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title-loading,
+.description-loading,
+.small-description-loading {
+  background-color: var(--loading);
+  background-image: -webkit-gradient(linear, right top, left top, from(#1f1f1f), color-stop(#333333), color-stop(#333333), to(#1f1f1f));
+  background-image: linear-gradient(270deg, #1f1f1f, #333333, #333333, #1f1f1f);
+  background-size: 400% 100%;
+  -webkit-animation: loading 4s ease-in-out infinite;
+          animation: loading 4s ease-in-out infinite;
+  color: #555555;
+}
+
+@-webkit-keyframes loading {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+@keyframes loading {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.padding-top {
+  padding-top: 9rem;
+}
+
+.app-banner {
+  padding: 1rem;
+}
+
+.app-banner .install {
+  max-width: 50rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.app-banner .install .btn-install {
+  font-weight: bold;
+  margin: 1.25rem 0;
+  font-size: 1rem;
+  display: inline-block;
+  width: 100%;
+  background: #b99d7f;
+  border: none;
+  border-radius: 10px;
+  padding: 1.5rem 0;
+  color: #000000;
+  cursor: pointer;
+}
+
+.app-banner .install .btn-install:hover {
+  opacity: 90%;
+}
+
+.app-banner .iosBanner {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  bottom: 9rem;
+  width: 92.5%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding-top: 1rem;
+  background: #fff;
+  color: #000000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.app-banner .iosBanner .app__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (5.625rem)[5];
+      grid-template-columns: repeat(5, 5.625rem);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.app-banner .iosBanner .cell {
+  overflow: hidden;
+  background-color: #d0d0d1;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.app-banner .iosBanner .cell img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.app-banner .iosBanner .install-text {
+  width: 13rem;
+  text-align: center;
+  margin-bottom: 0 auto;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.app-banner .open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-banner .step {
+  background-color: #d0d0d1;
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.app-banner .step p {
+  color: #000000;
+}
+
+.app-banner .step img {
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+}
+
+.app-banner .close {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding: 0 1rem 1rem 1rem;
+}
+
+@media all and (display-mode: standalone) {
+  .app-banner {
+    display: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

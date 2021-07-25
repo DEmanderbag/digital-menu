@@ -1,0 +1,87 @@
+header {
+  padding-top: 2.5rem;
+  max-width: $layout-max;
+  margin: $center;
+  .header__main {
+    padding: 0 $small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .date {
+    font-size: $medium;
+    margin-left: $small;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  width: 100%;
+  padding-top: $x-large;
+  padding-left: $small;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  
+  &__item {
+    min-width: 6rem;
+    text-align: center;
+    flex: 0 0 auto;
+    border-radius: $border-radius;
+    padding: $x-small $small;
+    background-color: rs-color(neutral,0);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    cursor: pointer;
+    will-change: background-color;
+    transition: 100ms ease-in background-color;
+
+    &:hover {
+      background-color: rs-color(brand, 0);
+    }
+    a {
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    &:not(:last-child) {
+      margin-right: $x-small;
+    }
+    &:last-child {
+      margin-right: $small;
+    }
+    &-title {
+      font-size: $small;
+      margin-bottom: 0;
+    }
+    &-icon {
+      order: -1;
+      align-self: center;
+      width: $icon;
+      height: $icon;
+      margin-bottom: $xx-small;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }   
+  }
+}
+
+.sticky {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: rs-color(black, 1);
+  padding-bottom: $x-large;
+}
+
+.active {
+  background-color: rs-color(brand, 0);
+}

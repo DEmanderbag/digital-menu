@@ -1,0 +1,34 @@
+[
+  {
+    "name": "French fries",
+    "price": "160"
+  },
+  {
+    "name": "Premium French fries",
+    "price": "190"
+  },
+  {
+    "name":"Spicy Wedges",
+    "price": "190"
+  },
+  {
+    "name": "Oinon Rings",
+    "price": "220"
+  },
+  {
+    "name": "Coleslaw salad",
+    "price": "210"
+  },
+  {
+    "name": "Cheddar Fries",
+    "price": "290"
+  },
+  {
+    "name": "Cheddar Bacon Fries",
+    "price": "390"
+  },
+  {
+    "name": "Cheddar Jalapeno Fries",
+    "price": "350"
+  }
+]

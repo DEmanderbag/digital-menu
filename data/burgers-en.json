@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Classic",
+    "description": "130g fresh beef, cheddar cheese, pickles, iceberg in mayonnaise, heinz ketchup / mustard, onion",
+    "price": "540",
+    "vegan": "🌱 770",
+    "img": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+  },
+  {
+    "name": "American",
+    "description":"130g fresh beef, cheddar cheese, pickles, iceberg in mayonnaise, heinz ketchup / mustard, onion",
+    "price": "680",
+    "vegan": "",
+    "img": "https://images.unsplash.com/photo-1591907383498-1f0a836e5b71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+  },
+  {
+    "name": "Serbian",
+    "description": "130g fresh beef, cheddar cheese, pickles, iceberg in mayonnaise, heinz ketchup / mustard, onion",
+    "price": "570",
+    "vegan": "🌱 840",
+    "img": "https://images.unsplash.com/photo-1603064752734-4c48eff53d05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+  },
+  {
+    "name":"Double Cheese",
+    "description":"130g fresh beef, cheddar cheese, pickles, iceberg in mayonnaise, heinz ketchup / mustard, onion",
+    "price": "640",
+    "vegan": "",
+    "img": "https://images.unsplash.com/photo-1610440042657-612c34d95e9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80"
+  },
+  {
+    "name": "Chicken",
+    "description": "130g fresh beef, cheddar cheese, pickles, iceberg in mayonnaise, heinz ketchup / mustard, onion",
+    "price": "470",
+    "vegan": "",
+    "img": "https://images.unsplash.com/photo-1610614991969-ceeb293e7ff5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80"
+  }, 
+  {
+    "name": "Truffle",
+    "description": "130g fresh beef, cheddar cheese, pickles, iceberg in mayonnaise, heinz ketchup / mustard, onion",
+    "price": "740",
+    "vegan": "🌱 940",
+    "img": "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1901&q=80"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Pomfrit",
+    "price": "160"
+  },
+  {
+    "name": "Premium pomfrit",
+    "price": "190"
+  },
+  {
+    "name": "Začinjen pomfrit",
+    "price": "190"
+  },
+  {
+    "name": "Pohovani luk",
+    "price": "220"
+  },
+  {
+    "name": "Kupus salata",
+    "price": "210"
+  },
+  {
+    "name": "Čedar pomfrit",
+    "price": "290"
+  },
+  {
+    "name": "Pomfrit sa slaninom od čedara",
+    "price": "390"
+  },
+  {
+    "name": "Pomfrit halapenjo i čedar",
+    "price": "350"
+  }
+]
