@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="sr">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="scss/main.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="scss/main.css" />
 
     <!-- ! Change this -->
-    <meta name="description" content="Put your description here.">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/logos/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/logos/favicon-16x16.png">
-    <meta name="theme-color" content="#1f1f1f">
+    <meta name="description" content="Put your description here." />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/logos/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/logos/favicon-16x16.png"
+    />
+    <meta name="theme-color" content="#1f1f1f" />
     <!-- iOS support -->
-    <link rel="apple-touch-icon" href="/assets/logos/apple-touch-icon.png">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap" rel="stylesheet">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b99d7f">
-    <meta name="msapplication-TileColor" content="#b99d7f">
+    <link rel="apple-touch-icon" href="/assets/logos/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#b99d7f" />
+    <meta name="msapplication-TileColor" content="#b99d7f" />
 
     <title>White label app</title>
   </head>
@@ -27,7 +40,12 @@
     <header>
       <div class="header__main">
         <h1 class="title">Burger Bar</h1>
-        <select name="region" id="region" class="form" aria-label="Select region">
+        <select
+          name="region"
+          id="region"
+          class="form"
+          aria-label="Select region"
+        >
           <option value="filter" class="visible-no" disabled selected></option>
           <option value="en">English</option>
           <option value="sr">Srpski</option>
@@ -38,42 +56,42 @@
         <div class="nav__item">
           <h2 class="nav__item-title">Burgers</h2>
           <div class="nav__item-icon">
-            <img src="assets/icons/hamburger.svg" alt="">
+            <img src="assets/icons/hamburger.svg" alt="" />
           </div>
           <a href="#burgers" title="burgers"></a>
         </div>
         <div class="nav__item">
           <h2 class="nav__item-title">Sides</h2>
           <div class="nav__item-icon">
-            <img src="assets/icons/fried-potatoes.svg" alt="">
+            <img src="assets/icons/fried-potatoes.svg" alt="" />
           </div>
           <a href="#sides" title="sides"></a>
         </div>
-       <div class="nav__item">
+        <div class="nav__item">
           <h2 class="nav__item-title">Dips</h2>
           <div class="nav__item-icon">
-            <img src="assets/icons/seasoning.svg" alt="">
+            <img src="assets/icons/seasoning.svg" alt="" />
           </div>
           <a href="#dips" title="dips"></a>
         </div>
         <div class="nav__item">
           <h2 class="nav__item-title">Snacks</h2>
           <div class="nav__item-icon">
-            <img src="assets/icons/corn-dog.svg" alt="">
+            <img src="assets/icons/corn-dog.svg" alt="" />
           </div>
           <a href="#snacks" title="snacks"></a>
         </div>
         <div class="nav__item">
           <h2 class="nav__item-title">Sweets</h2>
           <div class="nav__item-icon">
-            <img src="assets/icons/donut.svg" alt="">
+            <img src="assets/icons/donut.svg" alt="" />
           </div>
           <a href="#sweets" title="sweets"></a>
         </div>
         <div class="nav__item">
           <h2 class="nav__item-title">Add-ons</h2>
           <div class="nav__item-icon">
-            <img src="assets/icons/fried-egg.svg" alt="">
+            <img src="assets/icons/fried-egg.svg" alt="" />
           </div>
           <a href="#addons" title="addons"></a>
         </div>
@@ -81,20 +99,7 @@
     </header>
     <main>
       <section class="menu">
-        <!-- <div class="promotion-wrapper">
-          <h2>Promotion</h2>
-          <div class="promotion">
-            <h3 class="promotion__title">Fresh Fruits Upto <span>25% off</span></h3>
-            <div class="promotion__image">
-              <img src="icons/sandwich.svg" alt="">
-            </div>
-          </div>
-        </div> -->
-        <article
-          id="burgers"
-          class="menu__group burgers"
-          data-name="burgers"
-        >
+        <article id="burgers" class="menu__group burgers" data-name="burgers">
           <h2>Burgeri</h2>
           <div class="menu__group-item">
             <div class="title-loading"></div>
@@ -122,11 +127,7 @@
           </div>
         </article>
 
-        <article
-          id="sides"
-          class="menu__group sides"
-          data-name="sides"
-        >
+        <article id="sides" class="menu__group sides" data-name="sides">
           <h2>Sides</h2>
           <div class="small-description-loading"></div>
           <div class="small-description-loading"></div>
@@ -137,11 +138,7 @@
           <div class="small-description-loading"></div>
         </article>
 
-        <article
-          id="dips"
-          class="menu__group dips"
-          data-name="dips"
-        >
+        <article id="dips" class="menu__group dips" data-name="dips">
           <h2>Dips</h2>
           <div class="small-description-loading"></div>
           <div class="small-description-loading"></div>
@@ -149,11 +146,7 @@
           <div class="small-description-loading"></div>
         </article>
 
-        <article
-          id="snacks"
-          class="menu__group snacks"
-          data-name="snacks"
-        >
+        <article id="snacks" class="menu__group snacks" data-name="snacks">
           <h2>Snacks</h2>
           <div class="small-description-loading"></div>
           <div class="small-description-loading"></div>
@@ -161,11 +154,7 @@
           <div class="small-description-loading"></div>
         </article>
 
-        <article
-          id="sweets"
-          class="menu__group sweets"
-          data-name="sweets"
-        >
+        <article id="sweets" class="menu__group sweets" data-name="sweets">
           <h2>Sweets</h2>
           <div class="small-description-loading"></div>
           <div class="small-description-loading"></div>
@@ -173,11 +162,7 @@
           <div class="small-description-loading"></div>
         </article>
 
-        <article
-          id="addons"
-          class="menu__group addons"
-          data-name="addons"
-        >
+        <article id="addons" class="menu__group addons" data-name="addons">
           <h2>Add-ons</h2>
           <div class="small-description-loading"></div>
           <div class="small-description-loading"></div>
@@ -188,27 +173,34 @@
     </main>
     <footer>
       <div class="app-banner">
-  	  <div class="install">
-		    <button class="btn-install">Install app</button>
-	    </div>
-      <div class="iosBanner">
-        <img src="assets/icons/close.svg" alt="" class="close">
-        <div class="app__grid">
-          <div class="cell"></div>
-          <div class="cell"></div>
-          <div class="cell">
-            <img src="assets/logos/android-chrome-192x192.png" alt="">
-          </div>
-          <div class="cell"></div>
-          <div class="cell"></div>
+        <div class="install">
+          <button class="btn-install">Install app</button>
         </div>
-        <p class="install-text">Install Our application on your home screen for quick and easy access when you're on the go.</p>
-        <div class="step">
-          <p>Just tap <span><img src="assets/icons/share.svg" alt=""></span> then "Add to Home Screen"</p>
+        <div class="iosBanner">
+          <img src="assets/icons/close.svg" alt="" class="close" />
+          <div class="app__grid">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell">
+              <img src="assets/logos/android-chrome-192x192.png" alt="" />
+            </div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <p class="install-text">
+            Install Our application on your home screen for quick and easy
+            access when you're on the go.
+          </p>
+          <div class="step">
+            <p>
+              Just tap
+              <span><img src="assets/icons/share.svg" alt="" /></span> then "Add
+              to Home Screen"
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
     <script src="js/localization.js"></script>
     <script src="js/dates.js"></script>
     <script src="js/request.js" defer></script>
